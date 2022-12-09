@@ -24,8 +24,8 @@ The following scripts are included in this repository:
 To use these scripts, clone this repository and make the scripts executable:
 
 ```
-git clone https://github.com/username/backup-scripts.git
-cd backup-scripts
+git clone https://github.com/JCPetrelli/Backup-Scripts.git
+cd Backup-Scripts
 chmod +x *.sh
 ```
 
