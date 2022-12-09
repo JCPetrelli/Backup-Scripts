@@ -1,0 +1,5 @@
+- This script will use the rsync command to copy files from the src directory to the dest directory. The -a option tells rsync to copy files in a recursive manner, preserving the file permissions and ownership. The -v option enables verbose output so you can see the progress of the backup. The -z option enables compression, which can speed up the transfer of files over the network.
+
+- You can use this script by saving it to a file (e.g. backup.sh), making it executable with chmod +x backup.sh, and then running it with ./backup.sh.
+
+- Note: this script is a basic example and may not be suitable for all use cases. You may want to customize it to suit your specific needs. For example, you may want to add options to exclude certain files or directories from the backup, or you may want to specify different options for rsync depending on your requirements.

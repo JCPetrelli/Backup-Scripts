@@ -1,0 +1,3 @@
+- This script uses rsync to perform an incremental backup of the src directory to the dest directory. It only copies files that have changed since the last backup. The --delete and --delete-excluded options tell rsync to delete any files from the destination that have been deleted from the source.
+
+- The exclude variable specifies any files or directories that should be excluded from the backup. In this example, it excludes any files that end with the .mp4 extension and the tmp/ directory. You can add additional --exclude options as needed.
